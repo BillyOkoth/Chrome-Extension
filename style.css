@@ -1,0 +1,43 @@
+body {
+    background-color: #04295B;
+    .content {
+        display: flex;
+        height: 100vh;;
+        padding: 12px;
+        flex-direction: column;
+
+        .timer-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            padding: 16px;
+
+            p{
+                color: white;
+                font-size: 1.875em;
+            }
+        }
+
+        .data-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            height: 90vh;
+            padding: 16px;
+            color: white;
+
+            p , li {
+                font-size: 1.875em;
+            }
+
+            h1{font-size: 4em;
+            }
+        
+        }
+    }
+}
+
+
